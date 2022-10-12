@@ -718,6 +718,28 @@
 				<string>#9CDCFE</string>
 			</dict>
 		</dict>
+		<dict>
+			<key>name</key>
+			<string>Function Calls</string>
+			<key>scope</key>
+			<string>entity.name.function.jade, entity.name.function.pug, keyword.other.special-method, meta.function-call variable.function, meta.function-call variable.other.dollar.only punctuation.dollar, support.function</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#DCDCAA</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Method Calls</string>
+			<key>scope</key>
+			<string>meta.function-call.method support.function, meta.function-call.method variable.function, meta.function-call.static variable.function, meta.method-call, meta.method-call support.function, meta.method-call variable.function, support.function.mutator</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#DCDCAA</string>
+			</dict>
+		</dict>
 	</array>
 	<key>uuid</key>
 	<string>2fd1a8f9-ddfd-11e2-a28f-0800200c9a66</string>
